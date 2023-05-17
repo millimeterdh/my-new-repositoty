@@ -1,0 +1,135 @@
+.left-section {
+  text-align:center;
+  margin-bottom: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+      margin: 0;
+      padding: 10px 100px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      height: 20%;
+      margin-top: 20px;
+      background-color:rgba(74, 163, 163, .95);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border: 4px solid #a1072e;
+      
+      
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-grow: 1;
+      padding: 20px;
+  
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-weight: normal;
+      color:cornsilk;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 0;
+    }
+
+   
+
+
+    table:first-of-type {
+      background-color: #ADD8E6;
+}
+
+.wrapper {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    "header header header header header"
+    "side1 main main main side2"
+    "side1 main main main side2"
+    "footer footer footer footer footer"
+  ;
+  min-height: 80vh;
+  margin-top: 4rem;
+  gap: 0.5rem;
+}
+
+.grid-item {
+  font-size: 1.5rem;
+  background-color: rgba(127, 165, 129, 0.95) ;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 4px solid #a1072e;
+  
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.side2 {
+  grid-area: side2;
+}
+
+.side1 {
+  grid-area: 2 / 1 / span 2 / span 3;
+  color:rgb(242, 247, 171);
+  font-family: "Edwardian Script ITC";
+}
+
+.footer {
+  grid-area: footer;
+  font-family: "Edwardian Script ITC";
+  color: rgb(242, 247, 171);
+}
+
+body {
+  background-image: url(./marketing1.jpg);
+  background-size: cover;
+}
+
+table {
+
+  background-color: rgba(127, 165, 129, 0.95); 
+  border-radius: 5px; 
+  color: rgb(242, 247,171);
+  height: 40%;
+  margin-bottom: 5rem;
+  border: 4px solid #6c8b94;
+}
+
+
+ 
